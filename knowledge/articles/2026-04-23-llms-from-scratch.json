@@ -1,0 +1,20 @@
+{
+  "id": "kb-2026-04-23-010",
+  "title": "rasbt/LLMs-from-scratch",
+  "source": "github_trending",
+  "source_id": "rasbt/LLMs-from-scratch",
+  "url": "https://github.com/rasbt/LLMs-from-scratch",
+  "summary": "从零开始构建类ChatGPT的LLM的教育性项目，详述Transformer原理到实现的完整流程。9.1万星表明开发者对深入理解LLM核心机制的强烈需求。适合所有想要掌握大模型底层原理的开发者。",
+  "tags": [
+    "education",
+    "llm-from-scratch",
+    "transformer",
+    "deep-learning",
+    "tutorial"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-04-23T10:00:00Z",
+  "analyzed_at": "2026-04-23T10:00:00Z",
+  "organized_at": "2026-04-23T10:30:00Z",
+  "status": "published"
+}

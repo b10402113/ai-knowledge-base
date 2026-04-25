@@ -1,0 +1,20 @@
+{
+  "id": "kb-2026-04-23-004",
+  "title": "langchain-ai/langchain",
+  "source": "github_trending",
+  "source_id": "langchain-ai/langchain",
+  "url": "https://github.com/langchain-ai/langchain",
+  "summary": "LangChain是Agent工程的基础框架，支持组件链式组合、第三方集成、RAG检索和多Agent编排。13.5万星使其成为LLM应用开发的事实标准。LangGraph提供工作流控制能力，适合构建复杂的LLM应用流水线。是所有LLM应用开发者必须掌握的核心框架。",
+  "tags": [
+    "agent-framework",
+    "llm-application",
+    "rag",
+    "langgraph",
+    "orchestration"
+  ],
+  "relevance_score": 0.9,
+  "collected_at": "2026-04-23T10:00:00Z",
+  "analyzed_at": "2026-04-23T10:00:00Z",
+  "organized_at": "2026-04-23T10:30:00Z",
+  "status": "published"
+}

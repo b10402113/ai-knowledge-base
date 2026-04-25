@@ -1,0 +1,27 @@
+{
+  "id": "kb-2026-04-25-002",
+  "title": "dive-into-llms",
+  "source": "github-trending",
+  "source_id": "Lordog/dive-into-llms",
+  "url": "https://github.com/Lordog/dive-into-llms",
+  "summary": "上海交通大学张倬胜团队出品的 LLM 实践教程，覆盖微调部署、提示学习与 CoT、知识编辑、数学推理蒸馏、模型水印、越狱攻击、大模型隐写、多模态、GUI Agent、Agent 安全、RLHF 对齐等 11 个主题，每个主题配有 PPT、教程文档和 Jupyter Notebook。另联合华为昇腾推出国产化《大模型开发全流程》课程。适合 LLM 入门者和需要系统性学习大模型技术的工程师，是目前中文社区最全面的 LLM 实践教程之一。",
+  "tags": [
+    "large-language-model",
+    "fine-tuning",
+    "prompt-engineering",
+    "rlhf",
+    "tutorial"
+  ],
+  "relevance_score": 0.82,
+  "score_breakdown": {
+    "tech_depth": 0.7,
+    "practical_value": 0.85,
+    "timeliness": 0.85,
+    "community_heat": 0.85,
+    "domain_match": 0.95
+  },
+  "collected_at": "2026-04-25T12:00:00Z",
+  "analyzed_at": "2026-04-25T12:30:00Z",
+  "organized_at": "2026-04-25T12:45:00Z",
+  "status": "published"
+}

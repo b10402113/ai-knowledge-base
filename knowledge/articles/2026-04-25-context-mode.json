@@ -1,0 +1,27 @@
+{
+  "id": "kb-2026-04-25-007",
+  "title": "context-mode",
+  "source": "github-trending",
+  "source_id": "mksglu/context-mode",
+  "url": "https://github.com/mksglu/context-mode",
+  "summary": "解决 AI 编码 Agent 上下文窗口被工具输出占满的 MCP 服务器。三大核心机制：Sandbox 将工具原始输出隔离（315KB → 5.4KB，压缩 98%），SQLite + FTS5/BM25 索引跟踪所有编辑/操作/决策用于会话恢复，强制 LLM 生成脚本分析数据而非将数据灌入上下文（「用代码思考」范式）。支持 12 个平台（Claude Code、Cursor、Gemini CLI 等），曾登 Hacker News 首页。微软、Google、Meta 等团队在内部使用。对经常遇到上下文溢出的 AI 编程用户有立竿见影的效果。",
+  "tags": [
+    "mcp",
+    "context-management",
+    "code-assistant",
+    "coding-agent",
+    "typescript"
+  ],
+  "relevance_score": 0.88,
+  "score_breakdown": {
+    "tech_depth": 0.85,
+    "practical_value": 0.9,
+    "timeliness": 0.9,
+    "community_heat": 0.8,
+    "domain_match": 0.95
+  },
+  "collected_at": "2026-04-25T12:00:00Z",
+  "analyzed_at": "2026-04-25T12:30:00Z",
+  "organized_at": "2026-04-25T12:45:00Z",
+  "status": "published"
+}

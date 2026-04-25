@@ -1,0 +1,27 @@
+{
+  "id": "kb-2026-04-25-008",
+  "title": "free-claude-code",
+  "source": "github-trending",
+  "source_id": "Alishahryar1/free-claude-code",
+  "url": "https://github.com/Alishahryar1/free-claude-code",
+  "summary": "轻量代理层，将 Claude Code 的 API 调用路由到免费/低价模型提供商。支持 5 个后端：NVIDIA NIM（40 req/min 免费）、OpenRouter、DeepSeek、LM Studio（本地）、llama.cpp（本地）。支持按模型映射（Opus/Sonnet/Haiku 分别路由到不同模型），解析 thinking token 和 reasoning_content 为原生 Claude 格式，内置启发式工具解析器和 5 类本地请求拦截优化。附带 Discord/Telegram 机器人实现远程编码。适合想零成本体验 Claude Code 的开发者。",
+  "tags": [
+    "code-assistant",
+    "api-proxy",
+    "coding-agent",
+    "python",
+    "local-inference"
+  ],
+  "relevance_score": 0.79,
+  "score_breakdown": {
+    "tech_depth": 0.6,
+    "practical_value": 0.9,
+    "timeliness": 0.85,
+    "community_heat": 0.8,
+    "domain_match": 0.75
+  },
+  "collected_at": "2026-04-25T12:00:00Z",
+  "analyzed_at": "2026-04-25T12:30:00Z",
+  "organized_at": "2026-04-25T12:45:00Z",
+  "status": "published"
+}

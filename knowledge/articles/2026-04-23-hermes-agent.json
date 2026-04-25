@@ -1,0 +1,20 @@
+{
+  "id": "kb-2026-04-23-002",
+  "title": "NousResearch/hermes-agent",
+  "source": "github_trending",
+  "source_id": "NousResearch/hermes-agent",
+  "url": "https://github.com/NousResearch/hermes-agent",
+  "summary": "Hermes Agent是由Nous Research开发的自改进AI Agent框架，具备内置学习循环和自动技能创建能力。区别于传统静态Agent，该框架支持跨会话记忆搜索和用户建模，能在与用户交互中持续学习和优化。11.1万星显示其创新理念获得社区关注，适合需要长期交互记忆的复杂Agent场景。",
+  "tags": [
+    "ai-agent",
+    "self-improving",
+    "memory",
+    "multi-platform",
+    "llm"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-04-23T10:00:00Z",
+  "analyzed_at": "2026-04-23T10:00:00Z",
+  "organized_at": "2026-04-23T10:30:00Z",
+  "status": "published"
+}

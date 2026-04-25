@@ -1,0 +1,27 @@
+{
+  "id": "kb-2026-04-25-001",
+  "title": "claude-mem",
+  "source": "github-trending",
+  "source_id": "thedotmack/claude-mem",
+  "url": "https://github.com/thedotmack/claude-mem",
+  "summary": "Claude Code 的持久记忆压缩系统，解决 AI 编程助手跨会话上下文丢失的痛点。通过 5 个生命周期 Hook（SessionStart/PostToolUse/Stop/SessionEnd 等）自动捕获工具调用，经 AI 压缩后存入 SQLite + Chroma 向量数据库。检索时采用 3 层渐进式披露（search → timeline → get_observations），约节省 10 倍 token。提供 Web UI、MCP 搜索工具和中文模式。同时支持 Gemini CLI 和 OpenCode，是当前 Claude Code 生态中最成熟的记忆方案。",
+  "tags": [
+    "code-assistant",
+    "mcp",
+    "vector-database",
+    "context-management",
+    "typescript"
+  ],
+  "relevance_score": 0.89,
+  "score_breakdown": {
+    "tech_depth": 0.8,
+    "practical_value": 0.95,
+    "timeliness": 0.9,
+    "community_heat": 0.9,
+    "domain_match": 0.9
+  },
+  "collected_at": "2026-04-25T12:00:00Z",
+  "analyzed_at": "2026-04-25T12:30:00Z",
+  "organized_at": "2026-04-25T12:45:00Z",
+  "status": "published"
+}

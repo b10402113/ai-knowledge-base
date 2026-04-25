@@ -1,0 +1,20 @@
+{
+  "id": "kb-2026-04-23-009",
+  "title": "hiyouga/LlamaFactory",
+  "source": "github_trending",
+  "source_id": "hiyouga/LlamaFactory",
+  "url": "https://github.com/hiyouga/LlamaFactory",
+  "summary": "LlamaFactory是统一的大模型微调平台，支持100+ LLMs/VLMs的高效训练。7万星的项目提供Llama Board可视化界面和多种训练方法（LoRA、QLoRA等），针对中文场景优化，是企业定制专属LLM的首选工具。",
+  "tags": [
+    "llm-finetuning",
+    "lora",
+    "qlora",
+    "training",
+    "web-ui"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-04-23T10:00:00Z",
+  "analyzed_at": "2026-04-23T10:00:00Z",
+  "organized_at": "2026-04-23T10:30:00Z",
+  "status": "published"
+}

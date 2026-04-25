@@ -1,0 +1,20 @@
+{
+  "id": "kb-2026-04-23-007",
+  "title": "huggingface/transformers",
+  "source": "github_trending",
+  "source_id": "huggingface/transformers",
+  "url": "https://github.com/huggingface/transformers",
+  "summary": "Hugging Face的核心模型定义框架，是NLP和AI领域最受欢迎的库之一。16万星的项目支撑了从文本到视觉、音频和多模态模型的全栈机器学习能力。作为行业基础设施，几乎所有大模型应用都直接或间接依赖此库。",
+  "tags": [
+    "machine-learning",
+    "nlp",
+    "transformer-models",
+    "multimodal",
+    "huggingface"
+  ],
+  "relevance_score": 1.0,
+  "collected_at": "2026-04-23T10:00:00Z",
+  "analyzed_at": "2026-04-23T10:00:00Z",
+  "organized_at": "2026-04-23T10:30:00Z",
+  "status": "published"
+}

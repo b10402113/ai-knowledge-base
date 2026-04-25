@@ -1,0 +1,27 @@
+{
+  "id": "kb-2026-04-25-009",
+  "title": "claude-context",
+  "source": "github-trending",
+  "source_id": "zilliztech/claude-context",
+  "url": "https://github.com/zilliztech/claude-context",
+  "summary": "基于语义搜索的 MCP 插件，将整个代码库作为 Claude Code 的上下文。使用 Zilliz Cloud (Milvus) 向量数据库索引代码，通过 OpenAI Embedding 模型实现语义检索，避免将整个目录灌入上下文窗口的高成本问题。对百万行级代码库尤为有效，只需检索相关代码片段。支持 VS Code 扩展和 MCP 客户端配置。需要 Zilliz Cloud API Key 和 OpenAI API Key。适合大型代码库的 AI 辅助开发场景，是 Milvus/Zilliz 在 AI 编码工具链中的典型应用。",
+  "tags": [
+    "mcp",
+    "vector-database",
+    "code-search",
+    "semantic-search",
+    "embedding"
+  ],
+  "relevance_score": 0.84,
+  "score_breakdown": {
+    "tech_depth": 0.8,
+    "practical_value": 0.85,
+    "timeliness": 0.85,
+    "community_heat": 0.8,
+    "domain_match": 0.9
+  },
+  "collected_at": "2026-04-25T12:00:00Z",
+  "analyzed_at": "2026-04-25T12:30:00Z",
+  "organized_at": "2026-04-25T12:45:00Z",
+  "status": "published"
+}

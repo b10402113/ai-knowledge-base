@@ -1,0 +1,27 @@
+{
+  "id": "kb-2026-04-25-011",
+  "title": "evolver",
+  "source": "github-trending",
+  "source_id": "EvoMap/evolver",
+  "url": "https://github.com/EvoMap/evolver",
+  "summary": "基于 GEP（Gene Evolution Protocol）的 Agent 自进化引擎，将 Agent 经验编码为 Gene 和 Capsule 而非 ad hoc prompt。有 arXiv 论文（2604.15097）支撑，在 45 个科学代码求解场景的 4,590 次对照实验中，Gene 表示比文档式 Skill 包提供更稳定的控制信号，在 CritPt 基准上将模型从 9.1% 提升到 18.57%。通过 npm 安装后在任意 Git 仓库运行，利用 Git 做回滚和影响范围计算。未来将转为 Source-Available 许可。适合研究 Agent 进化机制和 Prompt 工程治理的团队。",
+  "tags": [
+    "agent-framework",
+    "self-evolving",
+    "prompt-engineering",
+    "javascript",
+    "gene-protocol"
+  ],
+  "relevance_score": 0.83,
+  "score_breakdown": {
+    "tech_depth": 0.85,
+    "practical_value": 0.8,
+    "timeliness": 0.85,
+    "community_heat": 0.75,
+    "domain_match": 0.9
+  },
+  "collected_at": "2026-04-25T12:00:00Z",
+  "analyzed_at": "2026-04-25T12:30:00Z",
+  "organized_at": "2026-04-25T12:45:00Z",
+  "status": "published"
+}

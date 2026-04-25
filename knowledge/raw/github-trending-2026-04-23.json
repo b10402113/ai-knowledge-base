@@ -1,0 +1,122 @@
+[
+  {
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "title": "openclaw/openclaw",
+    "description": "你的个人AI助手，支持任意操作系统和平台。支持WhatsApp、Telegram、Discord、Slack等多渠道消息传递，具备语音唤醒、实时Canvas、多Agent路由等功能的本地优先网关。",
+    "stars": 362000,
+    "language": "TypeScript",
+    "source_url": "https://github.com/openclaw/openclaw",
+    "source": "github_trending",
+    "tags": ["ai-assistant", "multi-channel", "voice", "local-first", "agent"],
+    "status": "raw",
+    "created_at": "2026-04-23T10:00:00Z"
+  },
+  {
+    "id": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
+    "title": "NousResearch/hermes-agent",
+    "description": "能与你共同成长的自改进AI Agent框架。由Nous Research开发，具备内置学习循环、自动技能创建、跨会话记忆搜索、用户建模等能力，支持多种模型和消息平台。",
+    "stars": 111000,
+    "language": "Python",
+    "source_url": "https://github.com/NousResearch/hermes-agent",
+    "source": "github_trending",
+    "tags": ["ai-agent", "self-improving", "memory", "multi-platform", "llm"],
+    "status": "raw",
+    "created_at": "2026-04-23T10:00:00Z"
+  },
+  {
+    "id": "c3d4e5f6-a7b8-9012-cdef-123456789012",
+    "title": "ollama/ollama",
+    "description": "本地大模型运行平台，支持Kimi-K2.5、GLM-5、MiniMax、DeepSeek、Qwen、Gemma等主流开源模型。提供简洁的REST API，可在macOS、Windows、Linux上快速部署本地LLM推理服务。",
+    "stars": 170000,
+    "language": "Go",
+    "source_url": "https://github.com/ollama/ollama",
+    "source": "github_trending",
+    "tags": ["llm-inference", "local-deployment", "open-source-models", "rest-api"],
+    "status": "raw",
+    "created_at": "2026-04-23T10:00:00Z"
+  },
+  {
+    "id": "d4e5f6a7-b8c9-0123-defa-234567890123",
+    "title": "langchain-ai/langchain",
+    "description": "Agent工程平台框架，帮助开发者构建基于LLM的应用。支持组件链式组合、第三方集成、RAG检索、多Agent编排等功能，提供LangGraph工作流控制能力。",
+    "stars": 135000,
+    "language": "Python",
+    "source_url": "https://github.com/langchain-ai/langchain",
+    "source": "github_trending",
+    "tags": ["agent-framework", "llm-application", "rag", "langgraph", "orchestration"],
+    "status": "raw",
+    "created_at": "2026-04-23T10:00:00Z"
+  },
+  {
+    "id": "e5f6a7b8-c9d0-1234-efab-345678901234",
+    "title": "MemPalace/mempalace",
+    "description": "最佳基准测试的开源AI记忆系统。提供本地优先的语义搜索、96.6%的R@5检索召回率、零API调用、模块化后端支持等功��，支持MCP工具和知识图谱。",
+    "stars": 49000,
+    "language": "Python",
+    "source_url": "https://github.com/MemPalace/mempalace",
+    "source": "github_trending",
+    "tags": ["ai-memory", "semantic-search", "mcp", "knowledge-graph", "local-first"],
+    "status": "raw",
+    "created_at": "2026-04-23T10:00:00Z"
+  },
+  {
+    "id": "f6a7b8c9-d0e1-2345-fabc-456789012345",
+    "title": "google-ai-edge/gallery",
+    "description": "Google官方的设备端ML/生成式AI展示平台，支持在移动设备上运行Gemma 4等顶级开源LLM。100%设备端隐私保护、离线使用，提供Agent Skills、AI Chat思维模式、图片问答等功能。",
+    "stars": 21800,
+    "language": "Kotlin",
+    "source_url": "https://github.com/google-ai-edge/gallery",
+    "source": "github_trending",
+    "tags": ["on-device-ai", "mobile-ml", "gemma", "google-ai-edge", "privacy"],
+    "status": "raw",
+    "created_at": "2026-04-23T10:00:00Z"
+  },
+  {
+    "id": "a7b8c9d0-e1f2-3456-abcd-567890123456",
+    "title": "huggingface/transformers",
+    "description": "Hugging Face的核心模型定义框架，支持文本、视觉、音频和多模态模型的最先进机器学习。提供模型定义、训练、推理的完整工具链，是NLP和AI领域最受欢迎的库之一。",
+    "stars": 160000,
+    "language": "Python",
+    "source_url": "https://github.com/huggingface/transformers",
+    "source": "github_trending",
+    "tags": ["machine-learning", "nlp", "transformer-models", "multimodal", "huggingface"],
+    "status": "raw",
+    "created_at": "2026-04-23T10:00:00Z"
+  },
+  {
+    "id": "b8c9d0e1-f2a3-4567-bcde-678901234567",
+    "title": "vllm-project/vllm",
+    "description": "高吞吐量LLM推理引擎，生产级模型服务标准方案。支持PagedAttention、量化、推测解码等优化技术，大幅提升推理效率并降低GPU内存占用。",
+    "stars": 76000,
+    "language": "Python",
+    "source_url": "https://github.com/vllm-project/vllm",
+    "source": "github_trending",
+    "tags": ["llm-inference", "gpu-optimization", "production-ready", "pagedattention"],
+    "status": "raw",
+    "created_at": "2026-04-23T10:00:00Z"
+  },
+  {
+    "id": "c9d0e1f2-a3b4-5678-cdef-789012345678",
+    "title": "hiyouga/LlamaFactory",
+    "description": "统一的大模型微调平台，支持100+ LLMs/VLMs的高效训练。提供Llama Board Web UI、多种训练方法（LoRA、QLoRA等）、中文优化，是LLM定制化的首选工具。",
+    "stars": 70000,
+    "language": "Python",
+    "source_url": "https://github.com/hiyouga/LlamaFactory",
+    "source": "github_trending",
+    "tags": ["llm-finetuning", "lora", "qlora", "training", "web-ui"],
+    "status": "raw",
+    "created_at": "2026-04-23T10:00:00Z"
+  },
+  {
+    "id": "d0e1f2a3-b4c5-6789-defa-890123456789",
+    "title": "rasbt/LLMs-from-scratch",
+    "description": "从零开始构建类ChatGPT的LLM的教育性资源，详述从原理到实现的完整流程。帮助开发者深入理解Transformer、注意力机制、训练方法等核心概念。",
+    "stars": 91000,
+    "language": "Python",
+    "source_url": "https://github.com/rasbt/LLMs-from-scratch",
+    "source": "github_trending",
+    "tags": ["education", "llm-from-scratch", "transformer", "deep-learning", "tutorial"],
+    "status": "raw",
+    "created_at": "2026-04-23T10:00:00Z"
+  }
+]

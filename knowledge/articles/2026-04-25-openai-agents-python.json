@@ -1,0 +1,27 @@
+{
+  "id": "kb-2026-04-25-004",
+  "title": "openai-agents-python",
+  "source": "github-trending",
+  "source_id": "openai/openai-agents-python",
+  "url": "https://github.com/openai/openai-agents-python",
+  "summary": "OpenAI 官方发布的 Python Agent SDK，提供 Agent、Handoff（任务交接）、Guardrails（安全护栏）、Human-in-the-loop、Session 管理、Tracing 等核心原语。v0.14.0 新增 Sandbox Agent，可在容器化环境中执行文件操作和命令，适合长时间任务。架构上支持 Provider-agnostic，兼容 OpenAI Responses/Chat Completions API 及 100+ 第三方 LLM（通过 any-llm 和 LiteLLM）。同时支持 Realtime Agent 构建语音 Agent。对于探索 Agent 架构的团队，这是目前最值得参考的官方实现。",
+  "tags": [
+    "agent-framework",
+    "multi-agent",
+    "openai",
+    "python",
+    "handoff"
+  ],
+  "relevance_score": 0.92,
+  "score_breakdown": {
+    "tech_depth": 0.85,
+    "practical_value": 0.95,
+    "timeliness": 0.95,
+    "community_heat": 0.9,
+    "domain_match": 0.95
+  },
+  "collected_at": "2026-04-25T12:00:00Z",
+  "analyzed_at": "2026-04-25T12:30:00Z",
+  "organized_at": "2026-04-25T12:45:00Z",
+  "status": "published"
+}

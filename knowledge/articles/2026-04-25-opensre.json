@@ -1,0 +1,27 @@
+{
+  "id": "kb-2026-04-25-014",
+  "title": "opensre",
+  "source": "github-trending",
+  "source_id": "Tracer-Cloud/opensre",
+  "url": "https://github.com/Tracer-Cloud/opensre",
+  "summary": "开源 AI SRE Agent 框架，目标是成为生产事故响应领域的 SWE-bench。核心思路：构建一个强化学习环境，通过合成 RCA 套件（检验根因准确性、证据充分性和对抗性干扰项）和真实 e2e 测试（覆盖 Kubernetes、EC2、CloudWatch、Lambda、Flink 等）来训练和评估 AI SRE Agent。已集成 60+ 运维工具，支持自定义工作流。目前处于 Public Alpha 阶段。对 DevOps/SRE 团队和 AI Agent 在运维领域的研究者有参考价值。",
+  "tags": [
+    "agent-framework",
+    "sre",
+    "incident-response",
+    "reinforcement-learning",
+    "python"
+  ],
+  "relevance_score": 0.79,
+  "score_breakdown": {
+    "tech_depth": 0.8,
+    "practical_value": 0.85,
+    "timeliness": 0.8,
+    "community_heat": 0.65,
+    "domain_match": 0.8
+  },
+  "collected_at": "2026-04-25T12:00:00Z",
+  "analyzed_at": "2026-04-25T12:30:00Z",
+  "organized_at": "2026-04-25T12:45:00Z",
+  "status": "published"
+}

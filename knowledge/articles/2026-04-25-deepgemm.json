@@ -1,0 +1,27 @@
+{
+  "id": "kb-2026-04-25-012",
+  "title": "DeepGEMM",
+  "source": "github-trending",
+  "source_id": "deepseek-ai/DeepGEMM",
+  "url": "https://github.com/deepseek-ai/DeepGEMM",
+  "summary": "DeepSeek 出品的高性能 CUDA 核函数库，统一了 LLM 推理和训练的关键计算原语：FP8/FP4/BF16 GEMM、MoE 融合通信（Mega MoE）、MQA 评分核、HyperConnection 等。在 H800 上达到 1550 TFLOPS，性能匹配或超越专家调优库。核心代码极简（仅少量核函数），采用 JIT 运行时编译无需预编译 CUDA。借鉴 CUTLASS/CuTe 概念但不依赖其重型模板。最新版支持 SM90 和 SM100 架构。对 LLM 推理优化和 CUDA kernel 学习有极高参考价值，但需 NVIDIA SM90+ GPU。",
+  "tags": [
+    "cuda-kernel",
+    "llm-inference",
+    "fp8",
+    "moe",
+    "deepseek"
+  ],
+  "relevance_score": 0.79,
+  "score_breakdown": {
+    "tech_depth": 0.95,
+    "practical_value": 0.7,
+    "timeliness": 0.7,
+    "community_heat": 0.75,
+    "domain_match": 0.85
+  },
+  "collected_at": "2026-04-25T12:00:00Z",
+  "analyzed_at": "2026-04-25T12:30:00Z",
+  "organized_at": "2026-04-25T12:45:00Z",
+  "status": "published"
+}

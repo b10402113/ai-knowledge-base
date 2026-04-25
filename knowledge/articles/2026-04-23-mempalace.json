@@ -1,0 +1,20 @@
+{
+  "id": "kb-2026-04-23-005",
+  "title": "MemPalace/mempalace",
+  "source": "github_trending",
+  "source_id": "MemPalace/mempalace",
+  "url": "https://github.com/MemPalace/mempalace",
+  "summary": "MemPalace是专注AI记忆系统的开源基准测试平台，实现了96.6%的R@5检索召回率。其本地优先的语义搜索架构支持零API调用和模块化后端，提供MCP工具和知识图谱集成。4.9万星表明高效记忆存储是Agent系统的关键基础设施。",
+  "tags": [
+    "ai-memory",
+    "semantic-search",
+    "mcp",
+    "knowledge-graph",
+    "local-first"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-04-23T10:00:00Z",
+  "analyzed_at": "2026-04-23T10:00:00Z",
+  "organized_at": "2026-04-23T10:30:00Z",
+  "status": "published"
+}

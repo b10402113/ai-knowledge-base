@@ -1,0 +1,19 @@
+{
+  "id": "kb-2026-04-23-003",
+  "title": "ollama/ollama",
+  "source": "github_trending",
+  "source_id": "ollama/ollama",
+  "url": "https://github.com/ollama/ollama",
+  "summary": "Ollama是本地大模型运行的标准方案，支持Kimi-K2.5、GLM-5、DeepSeek、Qwen等主流开源模型。17万星的项目规模证明了其在本地LLM部署领域的标杆地位。提供简洁REST API，屏蔽底层复杂性的同时保持高性能，适合需要快速本地部署LLM应用的开发者。",
+  "tags": [
+    "llm-inference",
+    "local-deployment",
+    "open-source-models",
+    "rest-api"
+  ],
+  "relevance_score": 0.9,
+  "collected_at": "2026-04-23T10:00:00Z",
+  "analyzed_at": "2026-04-23T10:00:00Z",
+  "organized_at": "2026-04-23T10:30:00Z",
+  "status": "published"
+}
