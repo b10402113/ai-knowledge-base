@@ -1,2 +1,2 @@
-httpx>=0.27,<1.0
-requests>=2.31,<3.0
+httpx
+python-dotenv
