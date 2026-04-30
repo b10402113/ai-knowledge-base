@@ -1,0 +1,29 @@
+{
+  "id": "kb-2026-04-30-004",
+  "title": "everything-claude-code",
+  "source": "github-search",
+  "source_id": "affaan-m/everything-claude-code",
+  "url": "https://github.com/affaan-m/everything-claude-code",
+  "summary": "everything-claude-code 是一个旨在优化性能的代理系统，专注于 Claude Code、Codex、Opencode 和 Cursor 等技术的开发。该项目强调技能、直觉、记忆、安全性和研究优先的发展模式，旨在提升代码生成和执行的效率。通过集成多种先进技术，该项目为开发者提供了一种高效的工具，帮助他们在 AI 编程领域中更好地利用现有资源。",
+  "tags": [
+    "performance-optimization",
+    "ai-development",
+    "javascript",
+    "code-generation",
+    "agent-system"
+  ],
+  "relevance_score": 0.85,
+  "score_breakdown": {
+    "tech_depth": 0.8,
+    "practical_value": 0.9,
+    "timeliness": 0.7,
+    "community_heat": 0.9,
+    "domain_match": 0.95
+  },
+  "collected_at": "2026-04-30T02:23:34Z",
+  "analyzed_at": "2026-04-30T02:22:35Z",
+  "organized_at": "2026-04-30T02:23:34Z",
+  "status": "published",
+  "stars": 170257,
+  "language": "JavaScript"
+}

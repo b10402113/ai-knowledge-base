@@ -1,0 +1,29 @@
+{
+  "id": "kb-2026-04-30-008",
+  "title": "opencode",
+  "source": "github-search",
+  "source_id": "anomalyco/opencode",
+  "url": "https://github.com/anomalyco/opencode",
+  "summary": "Opencode 是一个开源编码代理项目，旨在通过自动化编程任务来提高开发效率。该项目使用 TypeScript 开发，具有较高的社区关注度，获得了超过 15 万个星标。Opencode 的目标是为开发者提供智能化的编程助手，帮助他们更快地完成代码编写和调试工作。该项目的开源特性使得开发者可以自由使用和修改，促进了技术的共享与创新。",
+  "tags": [
+    "open-source",
+    "coding-agent",
+    "typescript",
+    "automation",
+    "developer-tools"
+  ],
+  "relevance_score": 0.85,
+  "score_breakdown": {
+    "tech_depth": 0.8,
+    "practical_value": 0.9,
+    "timeliness": 0.7,
+    "community_heat": 0.95,
+    "domain_match": 0.9
+  },
+  "collected_at": "2026-04-30T02:23:34Z",
+  "analyzed_at": "2026-04-30T02:22:56Z",
+  "organized_at": "2026-04-30T02:23:34Z",
+  "status": "published",
+  "stars": 152067,
+  "language": "TypeScript"
+}

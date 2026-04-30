@@ -1,0 +1,29 @@
+{
+  "id": "kb-2026-04-30-013",
+  "title": "skills",
+  "source": "github-search",
+  "source_id": "anthropics/skills",
+  "url": "https://github.com/anthropics/skills",
+  "summary": "该项目是一个公共代码库，旨在为代理技能提供支持。项目由Anthropic团队开发，使用Python语言，旨在促进代理技术的研究和应用。随着人工智能和大语言模型的快速发展，代理技能的研究变得尤为重要，能够为各种应用场景提供智能化解决方案。该项目的高星级表明了其在社区中的受欢迎程度和影响力。",
+  "tags": [
+    "agent-skills",
+    "python",
+    "open-source",
+    "ai-research",
+    "community-driven"
+  ],
+  "relevance_score": 0.9,
+  "score_breakdown": {
+    "tech_depth": 0.8,
+    "practical_value": 0.85,
+    "timeliness": 0.9,
+    "community_heat": 0.95,
+    "domain_match": 0.9
+  },
+  "collected_at": "2026-04-30T02:23:34Z",
+  "analyzed_at": "2026-04-30T02:23:22Z",
+  "organized_at": "2026-04-30T02:23:34Z",
+  "status": "published",
+  "stars": 126140,
+  "language": "Python"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "kb-2026-04-30-012",
+  "title": "open-webui",
+  "source": "github-search",
+  "source_id": "open-webui/open-webui",
+  "url": "https://github.com/open-webui/open-webui",
+  "summary": "open-webui 是一个用户友好的 AI 界面，支持多种 AI 模型和 API，包括 Ollama 和 OpenAI API。该项目旨在简化用户与 AI 模型的交互，使其更加直观和易用。凭借其开源特性，用户可以根据自己的需求进行定制和扩展。该项目在 GitHub 上获得了超过 134,000 个星标，显示出其在开发者社区中的广泛认可和热度。",
+  "tags": [
+    "user-friendly-interface",
+    "openai-api",
+    "ollama",
+    "python",
+    "open-source"
+  ],
+  "relevance_score": 0.9,
+  "score_breakdown": {
+    "tech_depth": 0.8,
+    "practical_value": 0.9,
+    "timeliness": 0.85,
+    "community_heat": 0.95,
+    "domain_match": 0.9
+  },
+  "collected_at": "2026-04-30T02:23:34Z",
+  "analyzed_at": "2026-04-30T02:23:17Z",
+  "organized_at": "2026-04-30T02:23:34Z",
+  "status": "published",
+  "stars": 134839,
+  "language": "Python"
+}

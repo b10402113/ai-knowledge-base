@@ -1,0 +1,29 @@
+{
+  "id": "kb-2026-04-30-011",
+  "title": "system-prompts-and-models-of-ai-tools",
+  "source": "github-search",
+  "source_id": "x1xhlol/system-prompts-and-models-of-ai-tools",
+  "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+  "summary": "该项目汇集了多种 AI 工具的系统提示和模型，包括 Augment Code、Claude Code、NotionAI 等，旨在为开发者提供丰富的资源和工具，以增强其在 AI 领域的开发能力。项目的开源特性使得用户可以自由访问和使用这些工具，促进了 AI 工具的创新和应用。该项目在 GitHub 上获得了较高的关注度，显示出其在社区中的影响力和实用价值。",
+  "tags": [
+    "ai-tools",
+    "open-source",
+    "system-prompts",
+    "developer-resources",
+    "model-collection"
+  ],
+  "relevance_score": 0.85,
+  "score_breakdown": {
+    "tech_depth": 0.8,
+    "practical_value": 0.9,
+    "timeliness": 0.7,
+    "community_heat": 0.9,
+    "domain_match": 0.95
+  },
+  "collected_at": "2026-04-30T02:23:34Z",
+  "analyzed_at": "2026-04-30T02:23:09Z",
+  "organized_at": "2026-04-30T02:23:34Z",
+  "status": "published",
+  "stars": 136397,
+  "language": null
+}

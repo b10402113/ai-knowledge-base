@@ -1,0 +1,29 @@
+{
+  "id": "kb-2026-04-30-002",
+  "title": "AutoGPT",
+  "source": "github-search",
+  "source_id": "Significant-Gravitas/AutoGPT",
+  "url": "https://github.com/Significant-Gravitas/AutoGPT",
+  "summary": "AutoGPT 是一个旨在让每个人都能使用和构建的可访问 AI 项目。该项目的使命是提供工具，使用户能够专注于重要事务。AutoGPT 通过简化 AI 的使用，降低了技术门槛，促进了更广泛的应用和开发。其 GitHub 页面获得了超过 183,886 个星标，显示出其在社区中的广泛关注和认可。",
+  "tags": [
+    "accessible-ai",
+    "open-source",
+    "python",
+    "community-driven",
+    "toolkit"
+  ],
+  "relevance_score": 0.9,
+  "score_breakdown": {
+    "tech_depth": 0.8,
+    "practical_value": 0.9,
+    "timeliness": 0.85,
+    "community_heat": 0.95,
+    "domain_match": 0.9
+  },
+  "collected_at": "2026-04-30T02:23:34Z",
+  "analyzed_at": "2026-04-30T02:22:22Z",
+  "organized_at": "2026-04-30T02:23:34Z",
+  "status": "published",
+  "stars": 183886,
+  "language": "Python"
+}

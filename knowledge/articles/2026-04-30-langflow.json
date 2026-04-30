@@ -1,0 +1,29 @@
+{
+  "id": "kb-2026-04-30-009",
+  "title": "langflow",
+  "source": "github-search",
+  "source_id": "langflow-ai/langflow",
+  "url": "https://github.com/langflow-ai/langflow",
+  "summary": "Langflow 是一个强大的工具，旨在构建和部署 AI 驱动的代理和工作流。该项目提供了一个用户友好的界面，使开发者能够轻松创建复杂的 AI 应用程序，支持多种集成和自定义功能。Langflow 的设计旨在提高开发效率，降低使用 AI 技术的门槛，适用于各种行业和场景。",
+  "tags": [
+    "ai-agents",
+    "workflow-automation",
+    "python",
+    "open-source",
+    "developer-tools"
+  ],
+  "relevance_score": 0.9,
+  "score_breakdown": {
+    "tech_depth": 0.8,
+    "practical_value": 0.9,
+    "timeliness": 0.85,
+    "community_heat": 0.95,
+    "domain_match": 1.0
+  },
+  "collected_at": "2026-04-30T02:23:34Z",
+  "analyzed_at": "2026-04-30T02:23:00Z",
+  "organized_at": "2026-04-30T02:23:34Z",
+  "status": "published",
+  "stars": 147516,
+  "language": "Python"
+}

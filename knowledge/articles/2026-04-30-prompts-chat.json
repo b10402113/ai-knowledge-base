@@ -1,0 +1,29 @@
+{
+  "id": "kb-2026-04-30-006",
+  "title": "prompts.chat",
+  "source": "github-search",
+  "source_id": "f/prompts.chat",
+  "url": "https://github.com/f/prompts.chat",
+  "summary": "prompts.chat 是一个开源项目，旨在让用户分享、发现和收集 ChatGPT 提示。该平台提供了一个社区驱动的环境，用户可以自由地交流和使用各种提示，促进了 ChatGPT 的应用和创新。项目支持自我托管，确保用户的隐私得到保护。凭借超过 16 万颗星的关注度，显示出其在开发者社区中的广泛认可和热度。",
+  "tags": [
+    "open-source",
+    "chatgpt-prompts",
+    "community-driven",
+    "self-hosted",
+    "privacy-focused"
+  ],
+  "relevance_score": 0.9,
+  "score_breakdown": {
+    "tech_depth": 0.7,
+    "practical_value": 0.9,
+    "timeliness": 0.8,
+    "community_heat": 1.0,
+    "domain_match": 0.9
+  },
+  "collected_at": "2026-04-30T02:23:34Z",
+  "analyzed_at": "2026-04-30T02:22:44Z",
+  "organized_at": "2026-04-30T02:23:34Z",
+  "status": "published",
+  "stars": 161171,
+  "language": "HTML"
+}

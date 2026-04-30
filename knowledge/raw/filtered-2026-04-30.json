@@ -1,0 +1,26 @@
+{
+  "date": "2026-04-30",
+  "filtered_count": 5,
+  "items": [
+    {
+      "id": "openclaw/openclaw",
+      "reason": "dedup: URL exists in article store"
+    },
+    {
+      "id": "ollama/ollama",
+      "reason": "dedup: URL exists in article store"
+    },
+    {
+      "id": "huggingface/transformers",
+      "reason": "dedup: URL exists in article store"
+    },
+    {
+      "id": "langchain-ai/langchain",
+      "reason": "dedup: URL exists in article store"
+    },
+    {
+      "id": "NousResearch/hermes-agent",
+      "reason": "dedup: URL exists in article store"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "kb-2026-04-30-010",
+  "title": "dify",
+  "source": "github-search",
+  "source_id": "langgenius/dify",
+  "url": "https://github.com/langgenius/dify",
+  "summary": "Dify 是一个为代理工作流开发提供生产就绪的平台，旨在简化和优化工作流的创建与管理。该项目使用 TypeScript 语言开发，具备高效的工作流设计能力，适合需要自动化和智能化处理的应用场景。Dify 的开源性质和活跃的社区支持使其在开发者中获得了广泛关注，当前在 GitHub 上的星标数量达到 139,663，显示出其在技术社区中的影响力和受欢迎程度。",
+  "tags": [
+    "agent-workflow",
+    "open-source",
+    "typescript",
+    "automation",
+    "productivity"
+  ],
+  "relevance_score": 0.9,
+  "score_breakdown": {
+    "tech_depth": 0.8,
+    "practical_value": 0.9,
+    "timeliness": 0.85,
+    "community_heat": 0.95,
+    "domain_match": 0.9
+  },
+  "collected_at": "2026-04-30T02:23:34Z",
+  "analyzed_at": "2026-04-30T02:23:05Z",
+  "organized_at": "2026-04-30T02:23:34Z",
+  "status": "published",
+  "stars": 139663,
+  "language": "TypeScript"
+}

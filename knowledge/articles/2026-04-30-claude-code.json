@@ -1,0 +1,29 @@
+{
+  "id": "kb-2026-04-30-014",
+  "title": "claude-code",
+  "source": "github-search",
+  "source_id": "anthropics/claude-code",
+  "url": "https://github.com/anthropics/claude-code",
+  "summary": "Claude Code 是一个智能编码工具，能够在终端中运行，理解代码库，通过自然语言命令帮助用户加快编码速度。它可以执行常规任务、解释复杂代码以及处理 Git 工作流，极大地提高了开发效率。该项目在 GitHub 上获得了超过 119,000 个星标，显示出其在开发者社区中的广泛关注和认可。",
+  "tags": [
+    "agentic-coding",
+    "natural-language-processing",
+    "git-workflows",
+    "developer-tools",
+    "open-source"
+  ],
+  "relevance_score": 0.9,
+  "score_breakdown": {
+    "tech_depth": 0.8,
+    "practical_value": 0.9,
+    "timeliness": 0.85,
+    "community_heat": 0.95,
+    "domain_match": 1.0
+  },
+  "collected_at": "2026-04-30T02:23:34Z",
+  "analyzed_at": "2026-04-30T02:23:30Z",
+  "organized_at": "2026-04-30T02:23:34Z",
+  "status": "published",
+  "stars": 119259,
+  "language": "Shell"
+}
