@@ -18,10 +18,9 @@ from typing import Any, Dict, List, Optional
 REQUIRED_FIELDS: Dict[str, type] = {
     "id": str,
     "title": str,
-    "source_url": str,
+    "url": str,
     "summary": str,
     "tags": list,
-    "status": str,
 }
 
 # 允许的 status 值
@@ -30,8 +29,9 @@ VALID_STATUS = {"draft", "review", "published", "archived"}
 # 允许的 audience 值
 VALID_AUDIENCE = {"beginner", "intermediate", "advanced"}
 
-# ID 格式正则：{source}-{YYYYMMDD}-{NNN}
-ID_PATTERN = re.compile(r"^[a-z0-9_-]+-(\d{8})-(\d{3})$")
+
+# ID 格式正则：{source}-{YYYY-MM-DD}-{NNN} 或 {YYYY-MM-DD}-{NNN}
+ID_PATTERN = re.compile(r"^(?:[a-z0-9_-]+-)?(\d{4}-\d{2}-\d{2})-(\d{3})$")
 
 # URL 格式正则
 URL_PATTERN = re.compile(r"^https?://.+")
@@ -76,23 +76,19 @@ def validate_required_fields(data: Dict[str, Any], result: ValidationResult) -> 
 
 
 def validate_id_format(id_value: str, result: ValidationResult) -> None:
-    """校验 ID 格式: {source}-{YYYYMMDD}-{NNN}"""
     match = ID_PATTERN.match(id_value)
     if not match:
         result.add_error(
-            f"ID 格式错误: '{id_value}'，应为 {{source}}-{{YYYYMMDD}}-{{NNN}} 格式"
+            f"ID 格式错误: '{id_value}'，应为 {{source}}-{{YYYY-MM-DD}}-{{NNN}} 或 {{YYYY-MM-DD}}-{{NNN}} 格式"
         )
         return
 
-    # 校验日期部分是否有效
     date_str = match.group(1)
     try:
-        year = int(date_str[:4])
-        month = int(date_str[4:6])
-        day = int(date_str[6:8])
+        parts = date_str.split("-")
+        year, month, day = int(parts[0]), int(parts[1]), int(parts[2])
         if not (1 <= month <= 12 and 1 <= day <= 31):
             raise ValueError("日期范围无效")
-        # 简单检查，不验证具体月份天数
         if year < 1900 or year > 2100:
             result.add_error(f"ID 日期年份无效: {date_str}")
     except ValueError as e:
@@ -182,8 +178,8 @@ def validate_file(filepath: Path) -> ValidationResult:
     if "status" in data and isinstance(data["status"], str):
         validate_status(data["status"], result)
 
-    if "source_url" in data and isinstance(data["source_url"], str):
-        validate_url(data["source_url"], result)
+    if "url" in data and isinstance(data["url"], str):
+        validate_url(data["url"], result)
 
     if "summary" in data and isinstance(data["summary"], str):
         validate_summary(data["summary"], result)

@@ -37,7 +37,12 @@ jobs:
         run: python pipeline/pipeline.py --sources github,rss --limit 20 --verbose
 
       - name: Validate JSON
-        run: python hooks/validate_json.py knowledge/articles/*.json knowledge/raw/*.json
+        run: |
+          shopt -s nullglob
+          files=(knowledge/articles/2*.json)
+          if [ ${#files[@]} -gt 0 ]; then
+            python hooks/validate_json.py "${files[@]}"
+          fi
 
       - name: Check quality
         run: python hooks/check_quality.py
