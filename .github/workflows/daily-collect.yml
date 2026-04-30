@@ -57,7 +57,7 @@ jobs:
         run: |
           ARTICLES_DIR="knowledge/articles"
           if [ -d "$ARTICLES_DIR" ]; then
-            COUNT=$(git diff --name-only --diff-filter=A "$ARTICLES_DIR" | wc -l | tr -d ' ')
+            COUNT=$(git diff HEAD~1 --name-only --diff-filter=A "$ARTICLES_DIR" 2>/dev/null | wc -l | tr -d ' ')
           else
             COUNT=0
           fi
