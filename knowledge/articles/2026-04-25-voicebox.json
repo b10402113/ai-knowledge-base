@@ -1,17 +1,9 @@
 {
+  "analyzed_at": "2026-04-25T12:30:00Z",
+  "collected_at": "2026-04-25T12:00:00Z",
   "id": "kb-2026-04-25-003",
-  "title": "voicebox",
-  "source": "github-trending",
-  "source_id": "jamiepine/voicebox",
-  "url": "https://github.com/jamiepine/voicebox",
-  "summary": "开源本地化 AI 语音合成工作台，定位为 ElevenLabs 的免费替代方案。集成 7 个 TTS 引擎（Qwen3-TTS、LuxTTS、Chatterbox Multilingual/Turbo、HumeAI TADA、Kokoro），支持 23 种语言、50+ 预设音色和零样本声音克隆。内置 8 种音频后处理效果（变调、混响、延迟等），提供多音轨时间线编辑器。基于 Tauri (Rust) 构建，原生支持 macOS (MLX/Metal)、Windows (CUDA) 和 Linux。提供 REST API 可集成到其他应用，适合播客制作、游戏配音和语音助手场景。",
-  "tags": [
-    "text-to-speech",
-    "voice-cloning",
-    "local-inference",
-    "typescript",
-    "rust"
-  ],
+  "language": null,
+  "organized_at": "2026-04-25T12:45:00Z",
   "relevance_score": 0.82,
   "score_breakdown": {
     "tech_depth": 0.7,
@@ -20,8 +12,18 @@
     "community_heat": 0.85,
     "domain_match": 0.7
   },
-  "collected_at": "2026-04-25T12:00:00Z",
-  "analyzed_at": "2026-04-25T12:30:00Z",
-  "organized_at": "2026-04-25T12:45:00Z",
-  "status": "published"
+  "source": "github-trending",
+  "source_id": "jamiepine/voicebox",
+  "stars": null,
+  "status": "published",
+  "summary": "开源本地化 AI 语音合成工作台，定位为 ElevenLabs 的免费替代方案。集成 7 个 TTS 引擎（Qwen3-TTS、LuxTTS、Chatterbox Multilingual/Turbo、HumeAI TADA、Kokoro），支持 23 种语言、50+ 预设音色和零样本声音克隆。内置 8 种音频后处理效果（变调、混响、延迟等），提供多音轨时间线编辑器。基于 Tauri (Rust) 构建，原生支持 macOS (MLX/Metal)、Windows (CUDA) 和 Linux。提供 REST API 可集成到其他应用，适合播客制作、游戏配音和语音助手场景。",
+  "tags": [
+    "text-to-speech",
+    "voice-cloning",
+    "local-inference",
+    "typescript",
+    "rust"
+  ],
+  "title": "voicebox",
+  "url": "https://github.com/jamiepine/voicebox"
 }

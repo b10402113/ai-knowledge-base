@@ -1,0 +1,29 @@
+{
+  "analyzed_at": "2026-04-25T14:13:00Z",
+  "collected_at": "2026-04-25T14:13:23Z",
+  "id": "kb-2026-04-25-017",
+  "language": "Shell",
+  "organized_at": "2026-04-25T14:13:23Z",
+  "relevance_score": 0.85,
+  "score_breakdown": {
+    "tech_depth": 0.8,
+    "practical_value": 0.9,
+    "timeliness": 0.7,
+    "community_heat": 0.95,
+    "domain_match": 0.9
+  },
+  "source": "github-search",
+  "source_id": "obra/superpowers",
+  "stars": 167307,
+  "status": "published",
+  "summary": "Superpowers 是一个代理技能框架和软件开发方法论，旨在提升软件开发过程中的效率和效果。该项目提供了一套系统化的工具和方法，帮助开发者更好地管理和应用代理技能，以应对复杂的开发挑战。其开源性质和活跃的社区支持，使得开发者能够在实践中不断优化和迭代该框架，提升项目的成功率。",
+  "tags": [
+    "agentic-skills",
+    "software-development",
+    "framework",
+    "open-source",
+    "methodology"
+  ],
+  "title": "superpowers",
+  "url": "https://github.com/obra/superpowers"
+}

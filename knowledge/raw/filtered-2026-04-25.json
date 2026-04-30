@@ -1,10 +1,18 @@
 {
   "date": "2026-04-25",
-  "filtered_count": 1,
+  "filtered_count": 3,
   "items": [
     {
-      "id": "NousResearch/hermes-agent",
-      "reason": "dedup: exact url match (https://github.com/NousResearch/hermes-agent)"
+      "id": "openclaw/openclaw",
+      "reason": "dedup: URL exists in article store"
+    },
+    {
+      "id": "ollama/ollama",
+      "reason": "dedup: URL exists in article store"
+    },
+    {
+      "id": "huggingface/transformers",
+      "reason": "dedup: URL exists in article store"
     }
   ]
 }

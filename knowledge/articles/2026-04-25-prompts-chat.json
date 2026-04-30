@@ -1,0 +1,29 @@
+{
+  "analyzed_at": "2026-04-25T14:13:13Z",
+  "collected_at": "2026-04-25T14:13:23Z",
+  "id": "kb-2026-04-25-020",
+  "language": "HTML",
+  "organized_at": "2026-04-25T14:13:23Z",
+  "relevance_score": 0.9,
+  "score_breakdown": {
+    "tech_depth": 0.7,
+    "practical_value": 0.9,
+    "timeliness": 0.8,
+    "community_heat": 1.0,
+    "domain_match": 0.9
+  },
+  "source": "github-search",
+  "source_id": "f/prompts.chat",
+  "stars": 160618,
+  "status": "published",
+  "summary": "prompts.chat 是一个社区驱动的平台，旨在分享、发现和收集 ChatGPT 提示。该项目是开源的，用户可以选择自我托管以确保隐私。凭借超过 16 万个星标，该项目在社区中获得了广泛的关注和使用，促进了用户之间的互动与学习。",
+  "tags": [
+    "open-source",
+    "chatgpt-prompts",
+    "community-driven",
+    "self-hosted",
+    "privacy-focused"
+  ],
+  "title": "prompts.chat",
+  "url": "https://github.com/f/prompts.chat"
+}

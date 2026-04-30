@@ -1,17 +1,9 @@
 {
+  "analyzed_at": "2026-04-25T12:30:00Z",
+  "collected_at": "2026-04-25T12:00:00Z",
   "id": "kb-2026-04-25-006",
-  "title": "multica",
-  "source": "github-trending",
-  "source_id": "multica-ai/multica",
-  "url": "https://github.com/multica-ai/multica",
-  "summary": "将编程 Agent 变成团队队友的开源平台。支持向 Agent 分配 Issue（像分配给同事一样），Agent 自主认领、执行、报告阻塞项。每次解决方案会自动结晶为可复用 Skill，随时间积累形成团队技能库。兼容 Claude Code、Codex、OpenClaw、OpenCode、Hermes、Gemini 等主流编码 Agent。提供看板视图、WebSocket 实时进度流、多工作区隔离。适合需要多 Agent 协作管理、任务追踪和技能积累的工程团队。",
-  "tags": [
-    "agent-framework",
-    "multi-agent",
-    "workflow-automation",
-    "typescript",
-    "coding-agent"
-  ],
+  "language": null,
+  "organized_at": "2026-04-25T12:45:00Z",
   "relevance_score": 0.86,
   "score_breakdown": {
     "tech_depth": 0.75,
@@ -20,8 +12,18 @@
     "community_heat": 0.85,
     "domain_match": 0.95
   },
-  "collected_at": "2026-04-25T12:00:00Z",
-  "analyzed_at": "2026-04-25T12:30:00Z",
-  "organized_at": "2026-04-25T12:45:00Z",
-  "status": "published"
+  "source": "github-trending",
+  "source_id": "multica-ai/multica",
+  "stars": null,
+  "status": "published",
+  "summary": "将编程 Agent 变成团队队友的开源平台。支持向 Agent 分配 Issue（像分配给同事一样），Agent 自主认领、执行、报告阻塞项。每次解决方案会自动结晶为可复用 Skill，随时间积累形成团队技能库。兼容 Claude Code、Codex、OpenClaw、OpenCode、Hermes、Gemini 等主流编码 Agent。提供看板视图、WebSocket 实时进度流、多工作区隔离。适合需要多 Agent 协作管理、任务追踪和技能积累的工程团队。",
+  "tags": [
+    "agent-framework",
+    "multi-agent",
+    "workflow-automation",
+    "typescript",
+    "coding-agent"
+  ],
+  "title": "multica",
+  "url": "https://github.com/multica-ai/multica"
 }

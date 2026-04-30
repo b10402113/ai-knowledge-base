@@ -1,0 +1,29 @@
+{
+  "analyzed_at": "2026-04-25T14:13:04Z",
+  "collected_at": "2026-04-25T14:13:23Z",
+  "id": "kb-2026-04-25-018",
+  "language": "JavaScript",
+  "organized_at": "2026-04-25T14:13:23Z",
+  "relevance_score": 0.85,
+  "score_breakdown": {
+    "tech_depth": 0.8,
+    "practical_value": 0.9,
+    "timeliness": 0.7,
+    "community_heat": 0.95,
+    "domain_match": 0.9
+  },
+  "source": "github-search",
+  "source_id": "affaan-m/everything-claude-code",
+  "stars": 166710,
+  "status": "published",
+  "summary": "该项目是一个针对 Claude Code、Codex、Opencode 和 Cursor 等系统的代理性能优化系统。它集成了技能、直觉、记忆、安全性和以研究为导向的开发方法，旨在提升这些工具的效率和功能。项目在 GitHub 上获得了超过 166,710 个星标，显示出其在开发者社区中的受欢迎程度和影响力。",
+  "tags": [
+    "performance-optimization",
+    "agent-system",
+    "javascript",
+    "open-source",
+    "developer-tools"
+  ],
+  "title": "everything-claude-code",
+  "url": "https://github.com/affaan-m/everything-claude-code"
+}

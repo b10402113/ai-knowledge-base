@@ -1,17 +1,9 @@
 {
+  "analyzed_at": "2026-04-25T12:30:00Z",
+  "collected_at": "2026-04-25T12:00:00Z",
   "id": "kb-2026-04-25-013",
-  "title": "android-reverse-engineering-skill",
-  "source": "github-trending",
-  "source_id": "SimoneAvogadro/android-reverse-engineering-skill",
-  "url": "https://github.com/SimoneAvogadro/android-reverse-engineering-skill",
-  "summary": "Claude Code 技能插件，专注 Android 应用逆向工程。使用 jadx + Fernflower/Vineflower 反编译 APK/XAPK/JAR/AAR 文件，自动提取 Retrofit 端点、OkHttp 调用、硬编码 URL 和认证模式等 HTTP API 信息。支持从 Activity/Fragment 到 ViewModel/Repository 再到 HTTP 调用的全链路追踪，处理 ProGuard/R8 混淆代码。通过 `/decompile` 命令或自然语言激活。适合需要逆向分析 Android 应用接口的安全研究员和开发者。",
-  "tags": [
-    "reverse-engineering",
-    "android",
-    "code-assistant",
-    "decompilation",
-    "api-extraction"
-  ],
+  "language": null,
+  "organized_at": "2026-04-25T12:45:00Z",
   "relevance_score": 0.72,
   "score_breakdown": {
     "tech_depth": 0.6,
@@ -20,8 +12,18 @@
     "community_heat": 0.7,
     "domain_match": 0.6
   },
-  "collected_at": "2026-04-25T12:00:00Z",
-  "analyzed_at": "2026-04-25T12:30:00Z",
-  "organized_at": "2026-04-25T12:45:00Z",
-  "status": "published"
+  "source": "github-trending",
+  "source_id": "SimoneAvogadro/android-reverse-engineering-skill",
+  "stars": null,
+  "status": "published",
+  "summary": "Claude Code 技能插件，专注 Android 应用逆向工程。使用 jadx + Fernflower/Vineflower 反编译 APK/XAPK/JAR/AAR 文件，自动提取 Retrofit 端点、OkHttp 调用、硬编码 URL 和认证模式等 HTTP API 信息。支持从 Activity/Fragment 到 ViewModel/Repository 再到 HTTP 调用的全链路追踪，处理 ProGuard/R8 混淆代码。通过 `/decompile` 命令或自然语言激活。适合需要逆向分析 Android 应用接口的安全研究员和开发者。",
+  "tags": [
+    "reverse-engineering",
+    "android",
+    "code-assistant",
+    "decompilation",
+    "api-extraction"
+  ],
+  "title": "android-reverse-engineering-skill",
+  "url": "https://github.com/SimoneAvogadro/android-reverse-engineering-skill"
 }

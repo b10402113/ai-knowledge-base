@@ -1,9 +1,15 @@
 {
+  "analyzed_at": "2026-04-23T10:00:00Z",
+  "collected_at": "2026-04-23T10:00:00Z",
   "id": "kb-2026-04-23-006",
-  "title": "google-ai-edge/gallery",
-  "source": "github_trending",
+  "language": null,
+  "organized_at": "2026-04-23T10:30:00Z",
+  "relevance_score": 0.8,
+  "score_breakdown": {},
+  "source": "github-trending",
   "source_id": "google-ai-edge/gallery",
-  "url": "https://github.com/google-ai-edge/gallery",
+  "stars": null,
+  "status": "published",
   "summary": "Google官方出品的设备端ML/生成式AI平台，支持在移动设备上离线运行Gemma 4等顶级开源模型。2.18万星的项目体现了边缘AI的重要趋势：100%设备端隐私保护、离线使用、Agent Skills等功能，适合需要端侧AI能力的移动应用开发。",
   "tags": [
     "on-device-ai",
@@ -12,9 +18,6 @@
     "google-ai-edge",
     "privacy"
   ],
-  "relevance_score": 0.8,
-  "collected_at": "2026-04-23T10:00:00Z",
-  "analyzed_at": "2026-04-23T10:00:00Z",
-  "organized_at": "2026-04-23T10:30:00Z",
-  "status": "published"
+  "title": "google-ai-edge/gallery",
+  "url": "https://github.com/google-ai-edge/gallery"
 }

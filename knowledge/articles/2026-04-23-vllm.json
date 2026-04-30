@@ -1,9 +1,15 @@
 {
+  "analyzed_at": "2026-04-23T10:00:00Z",
+  "collected_at": "2026-04-23T10:00:00Z",
   "id": "kb-2026-04-23-008",
-  "title": "vllm-project/vllm",
-  "source": "github_trending",
+  "language": null,
+  "organized_at": "2026-04-23T10:30:00Z",
+  "relevance_score": 0.9,
+  "score_breakdown": {},
+  "source": "github-trending",
   "source_id": "vllm-project/vllm",
-  "url": "https://github.com/vllm-project/vllm",
+  "stars": null,
+  "status": "published",
   "summary": "vLLM是生产级高吞吐量LLM推理引擎，采用PagedAttention等创新技术实现高效的GPU内存利用。7.6万星的项目是云端LLM部署的首选方案，支持量化、推测解码等优化技术，是大模型商业化部署的标准底座。",
   "tags": [
     "llm-inference",
@@ -11,9 +17,6 @@
     "production-ready",
     "pagedattention"
   ],
-  "relevance_score": 0.9,
-  "collected_at": "2026-04-23T10:00:00Z",
-  "analyzed_at": "2026-04-23T10:00:00Z",
-  "organized_at": "2026-04-23T10:30:00Z",
-  "status": "published"
+  "title": "vllm-project/vllm",
+  "url": "https://github.com/vllm-project/vllm"
 }

@@ -1,17 +1,9 @@
 {
+  "analyzed_at": "2026-04-25T12:30:00Z",
+  "collected_at": "2026-04-25T12:00:00Z",
   "id": "kb-2026-04-25-010",
-  "title": "GenericAgent",
-  "source": "github-trending",
-  "source_id": "lsdefine/GenericAgent",
-  "url": "https://github.com/lsdefine/GenericAgent",
-  "summary": "仅需 ~3K 行核心代码的自进化 Agent 框架，通过 9 个原子工具 + ~100 行 Agent Loop 实现 LLM 对本地计算机的完整系统控制（浏览器、终端、文件系统、ADB）。核心设计哲学是「不预装技能——进化出技能」：每次完成新任务后自动将执行路径结晶为可复用 Skill，形成个人技能树。上下文窗口仅需 <30K token，远低于其他 Agent 的 200K-1M。有 arXiv 论文（2604.17091）支持，仓库本身完全由 Agent 自举构建。支持 Claude/Gemini/Kimi 等多模型。",
-  "tags": [
-    "agent-framework",
-    "self-evolving",
-    "multi-agent",
-    "python",
-    "skill-tree"
-  ],
+  "language": null,
+  "organized_at": "2026-04-25T12:45:00Z",
   "relevance_score": 0.86,
   "score_breakdown": {
     "tech_depth": 0.85,
@@ -20,8 +12,18 @@
     "community_heat": 0.75,
     "domain_match": 0.95
   },
-  "collected_at": "2026-04-25T12:00:00Z",
-  "analyzed_at": "2026-04-25T12:30:00Z",
-  "organized_at": "2026-04-25T12:45:00Z",
-  "status": "published"
+  "source": "github-trending",
+  "source_id": "lsdefine/GenericAgent",
+  "stars": null,
+  "status": "published",
+  "summary": "仅需 ~3K 行核心代码的自进化 Agent 框架，通过 9 个原子工具 + ~100 行 Agent Loop 实现 LLM 对本地计算机的完整系统控制（浏览器、终端、文件系统、ADB）。核心设计哲学是「不预装技能——进化出技能」：每次完成新任务后自动将执行路径结晶为可复用 Skill，形成个人技能树。上下文窗口仅需 <30K token，远低于其他 Agent 的 200K-1M。有 arXiv 论文（2604.17091）支持，仓库本身完全由 Agent 自举构建。支持 Claude/Gemini/Kimi 等多模型。",
+  "tags": [
+    "agent-framework",
+    "self-evolving",
+    "multi-agent",
+    "python",
+    "skill-tree"
+  ],
+  "title": "GenericAgent",
+  "url": "https://github.com/lsdefine/GenericAgent"
 }

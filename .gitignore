@@ -1,0 +1,6 @@
+doc/*.env
+*doc
+tmp*
+doc*
+original*
+.env

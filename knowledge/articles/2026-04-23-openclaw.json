@@ -1,9 +1,15 @@
 {
+  "analyzed_at": "2026-04-23T10:00:00Z",
+  "collected_at": "2026-04-23T10:00:00Z",
   "id": "kb-2026-04-23-001",
-  "title": "openclaw/openclaw",
-  "source": "github_trending",
+  "language": null,
+  "organized_at": "2026-04-23T10:30:00Z",
+  "relevance_score": 0.9,
+  "score_breakdown": {},
+  "source": "github-trending",
   "source_id": "openclaw/openclaw",
-  "url": "https://github.com/openclaw/openclaw",
+  "stars": null,
+  "status": "published",
   "summary": "OpenClaw是一款功能全面的个人AI助手框架，支持Windows、macOS、Linux及移动端多平台部署。核心优势在于多渠道消息集成（WhatsApp、Telegram、Discord、Slack等）、本地优先的隐私保护架构，以及语音唤醒和实时Canvas等创新交互模式。36.2万星的项目规模证明其成熟度和社区认可度，适合需要构建私有AI助手的开发者。",
   "tags": [
     "ai-assistant",
@@ -12,9 +18,6 @@
     "local-first",
     "agent"
   ],
-  "relevance_score": 0.9,
-  "collected_at": "2026-04-23T10:00:00Z",
-  "analyzed_at": "2026-04-23T10:00:00Z",
-  "organized_at": "2026-04-23T10:30:00Z",
-  "status": "published"
+  "title": "openclaw/openclaw",
+  "url": "https://github.com/openclaw/openclaw"
 }

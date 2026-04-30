@@ -1,0 +1,29 @@
+{
+  "analyzed_at": "2026-04-25T14:13:09Z",
+  "collected_at": "2026-04-25T14:13:23Z",
+  "id": "kb-2026-04-25-019",
+  "language": "Python",
+  "organized_at": "2026-04-25T14:13:23Z",
+  "relevance_score": 0.95,
+  "score_breakdown": {
+    "tech_depth": 0.9,
+    "practical_value": 0.95,
+    "timeliness": 0.9,
+    "community_heat": 0.98,
+    "domain_match": 1.0
+  },
+  "source": "github-search",
+  "source_id": "AUTOMATIC1111/stable-diffusion-webui",
+  "stars": 162601,
+  "status": "published",
+  "summary": "Stable Diffusion Web UI 是一个基于 Stable Diffusion 模型的用户界面，允许用户通过简单的网页界面生成高质量的图像。该项目以其高效的图像生成能力和用户友好的设计而受到广泛欢迎，吸引了大量用户和开发者的关注。其开源特性和活跃的社区支持使得用户能够不断获取更新与新功能，进一步推动了图像生成技术的发展。",
+  "tags": [
+    "stable-diffusion",
+    "web-ui",
+    "image-generation",
+    "open-source",
+    "python"
+  ],
+  "title": "stable-diffusion-webui",
+  "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui"
+}

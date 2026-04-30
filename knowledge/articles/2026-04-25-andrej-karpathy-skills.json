@@ -1,16 +1,9 @@
 {
+  "analyzed_at": "2026-04-25T12:30:00Z",
+  "collected_at": "2026-04-25T12:00:00Z",
   "id": "kb-2026-04-25-005",
-  "title": "andrej-karpathy-skills",
-  "source": "github-trending",
-  "source_id": "forrestchang/andrej-karpathy-skills",
-  "url": "https://github.com/forrestchang/andrej-karpathy-skills",
-  "summary": "源自 Andrej Karpathy 对 LLM 编程陷阱的观察，浓缩为 4 条原则写入单个 CLAUDE.md 文件：先思考再编码（显式陈述假设、呈现多种理解）、简单优先（拒绝过度抽象和投机性功能）、手术式修改（只动该动的代码）、目标驱动执行（定义成功标准并循环验证）。直接丢入项目根目录即可生效，无需安装任何依赖。本周新增 29K Star，反映了社区对「如何让 AI 编码助手少犯错」这一痛点的强烈共鸣。",
-  "tags": [
-    "code-generation",
-    "prompt-engineering",
-    "best-practices",
-    "coding-agent"
-  ],
+  "language": null,
+  "organized_at": "2026-04-25T12:45:00Z",
   "relevance_score": 0.84,
   "score_breakdown": {
     "tech_depth": 0.55,
@@ -19,8 +12,17 @@
     "community_heat": 0.95,
     "domain_match": 0.85
   },
-  "collected_at": "2026-04-25T12:00:00Z",
-  "analyzed_at": "2026-04-25T12:30:00Z",
-  "organized_at": "2026-04-25T12:45:00Z",
-  "status": "published"
+  "source": "github-trending",
+  "source_id": "forrestchang/andrej-karpathy-skills",
+  "stars": null,
+  "status": "published",
+  "summary": "源自 Andrej Karpathy 对 LLM 编程陷阱的观察，浓缩为 4 条原则写入单个 CLAUDE.md 文件：先思考再编码（显式陈述假设、呈现多种理解）、简单优先（拒绝过度抽象和投机性功能）、手术式修改（只动该动的代码）、目标驱动执行（定义成功标准并循环验证）。直接丢入项目根目录即可生效，无需安装任何依赖。本周新增 29K Star，反映了社区对「如何让 AI 编码助手少犯错」这一痛点的强烈共鸣。",
+  "tags": [
+    "code-generation",
+    "prompt-engineering",
+    "best-practices",
+    "coding-agent"
+  ],
+  "title": "andrej-karpathy-skills",
+  "url": "https://github.com/forrestchang/andrej-karpathy-skills"
 }
