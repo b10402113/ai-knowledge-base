@@ -29,6 +29,12 @@ REQUEST_TIMEOUT = 60.0
 MAX_RETRIES = 3
 BACKOFF_BASE = 2
 
+RMB_PRICES: Dict[str, Dict[str, float]] = {
+    "deepseek": {"input": 1.0, "output": 2.0},
+    "qwen": {"input": 4.0, "output": 12.0},
+    "openai": {"input": 150.0, "output": 600.0},
+}
+
 
 @dataclass
 class Usage:
@@ -43,6 +49,136 @@ class Usage:
     prompt_tokens: int = 0
     completion_tokens: int = 0
     total_tokens: int = 0
+
+
+class CostTracker:
+    """追踪 LLM 调用的 token 消耗和成本（人民币）。
+
+    按提供商分组记录每次 API 调用的 token 使用情况，
+    并提供成本估算和汇总报告功能。
+
+    Attributes:
+        _records: 按 provider 名称分组的调用记录列表。
+    """
+
+    def __init__(self) -> None:
+        """初始化 CostTracker。"""
+        self._records: Dict[str, List[Dict[str, Any]]] = {}
+
+    def record(self, usage: Usage, provider: str) -> None:
+        """记录一次 API 调用的 token 使用情况。
+
+        Args:
+            usage: 本次调用的 token 使用统计。
+            provider: 提供商名称（如 "deepseek", "qwen", "openai"）。
+        """
+        provider = provider.lower()
+        if provider not in self._records:
+            self._records[provider] = []
+
+        self._records[provider].append({
+            "prompt_tokens": usage.prompt_tokens,
+            "completion_tokens": usage.completion_tokens,
+            "total_tokens": usage.total_tokens,
+            "timestamp": time.time(),
+        })
+
+        logger.debug(
+            "Recorded usage for %s: %d prompt + %d completion tokens",
+            provider,
+            usage.prompt_tokens,
+            usage.completion_tokens,
+        )
+
+    def estimated_cost(self, provider: str) -> float:
+        """计算指定提供商的累计成本（元）。
+
+        Args:
+            provider: 提供商名称。
+
+        Returns:
+            累计成本（人民币元）。
+
+        Raises:
+            ValueError: 如果提供商不在价格表中。
+        """
+        provider = provider.lower()
+        if provider not in RMB_PRICES:
+            raise ValueError(
+                f"Unknown provider '{provider}'. Available: {list(RMB_PRICES.keys())}"
+            )
+
+        if provider not in self._records:
+            return 0.0
+
+        prices = RMB_PRICES[provider]
+        total_input = sum(r["prompt_tokens"] for r in self._records[provider])
+        total_output = sum(r["completion_tokens"] for r in self._records[provider])
+
+        cost = (
+            total_input * prices["input"] + total_output * prices["output"]
+        ) / 1_000_000
+
+        return cost
+
+    def report(self, provider: Optional[str] = None) -> None:
+        """打印成本报告。
+
+        如果指定 provider，只打印该提供商的报告；
+        否则打印所有提供商的汇总报告。
+
+        Args:
+            provider: 可选的提供商名称。为 None 时打印全部。
+        """
+        if not self._records:
+            print("📊 CostTracker Report: No API calls recorded.")
+            return
+
+        print("\n" + "=" * 60)
+        print("📊 CostTracker Report")
+        print("=" * 60)
+
+        providers_to_report = (
+            [provider.lower()] if provider else list(self._records.keys())
+        )
+
+        total_cost_all = 0.0
+
+        for p in providers_to_report:
+            if p not in self._records:
+                print(f"\n  [{p}] No records found.")
+                continue
+
+            records = self._records[p]
+            total_calls = len(records)
+            total_input = sum(r["prompt_tokens"] for r in records)
+            total_output = sum(r["completion_tokens"] for r in records)
+            total_tokens = total_input + total_output
+
+            try:
+                cost = self.estimated_cost(p)
+                total_cost_all += cost
+            except ValueError:
+                cost = 0.0
+
+            print(f"\n  [{p.upper()}]")
+            print(f"    Calls:          {total_calls}")
+            print(f"    Input tokens:   {total_input:,}")
+            print(f"    Output tokens:  {total_output:,}")
+            print(f"    Total tokens:   {total_tokens:,}")
+            print(f"    Estimated cost: ¥{cost:.4f}")
+
+        print("\n" + "-" * 60)
+        print(f"  💰 Total estimated cost: ¥{total_cost_all:.4f}")
+        print("=" * 60 + "\n")
+
+    def reset(self) -> None:
+        """清空所有记录。"""
+        self._records.clear()
+        logger.debug("CostTracker records cleared.")
+
+
+tracker = CostTracker()
 
 
 @dataclass
@@ -225,7 +361,15 @@ class OpenAICompatibleProvider(LLMProvider):
             usage.total_tokens,
         )
 
-        return LLMResponse(content=content, usage=usage, model=model)
+        response = LLMResponse(content=content, usage=usage, model=model)
+
+        provider_key = next(
+            (k for k, v in PROVIDERS.items() if v.name == self._config.name),
+            "unknown",
+        )
+        tracker.record(usage, provider_key)
+
+        return response
 
 
 def get_provider(name: Optional[str] = None, api_key: Optional[str] = None) -> OpenAICompatibleProvider:

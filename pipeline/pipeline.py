@@ -25,7 +25,7 @@ from typing import Any, Dict, List, Optional, Set, Tuple
 
 import httpx
 
-from model_client import chat_with_retry, get_provider
+from model_client import chat_with_retry, get_provider, tracker
 
 logger = logging.getLogger(__name__)
 
@@ -649,6 +649,8 @@ def run_pipeline(
     items = step1_collect(sources, limit)
     if not items:
         logger.warning("No items collected — pipeline terminated")
+        provider = os.environ.get("LLM_PROVIDER", "deepseek")
+        tracker.report(provider=provider)
         return []
 
     analyzed = step2_analyze(items, dry_run=dry_run)
@@ -656,13 +658,18 @@ def run_pipeline(
 
     if not accepted:
         logger.warning("No items passed organize — pipeline terminated")
+        provider = os.environ.get("LLM_PROVIDER", "deepseek")
+        tracker.report(provider=provider)
         return []
 
     step4_save(accepted, filtered, dry_run=dry_run)
 
+    provider = os.environ.get("LLM_PROVIDER", "deepseek")
     logger.info("=" * 60)
     logger.info("Pipeline complete: %d articles saved", len(accepted))
     logger.info("=" * 60)
+
+    tracker.report(provider=provider)
     return accepted
 
 
