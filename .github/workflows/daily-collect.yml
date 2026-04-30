@@ -45,7 +45,12 @@ jobs:
           fi
 
       - name: Check quality
-        run: python hooks/check_quality.py
+        run: |
+          shopt -s nullglob
+          files=(knowledge/articles/2*.json)
+          if [ ${#files[@]} -gt 0 ]; then
+            python hooks/check_quality.py "${files[@]}"
+          fi
 
       - name: Count new articles
         id: count
