@@ -23,10 +23,12 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: pip
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
 
       - name: Run pipeline
         env:
