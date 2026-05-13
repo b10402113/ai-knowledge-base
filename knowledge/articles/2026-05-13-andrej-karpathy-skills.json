@@ -1,0 +1,29 @@
+{
+  "id": "kb-2026-05-13-001",
+  "title": "andrej-karpathy-skills",
+  "source": "github-search",
+  "source_id": "multica-ai/andrej-karpathy-skills",
+  "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+  "summary": "该项目是一个名为 CLAUDE.md 的文件，旨在改善 Claude 代码的行为，基于 Andrej Karpathy 对大型语言模型（LLM）编码陷阱的观察。项目通过总结和提炼 Karpathy 的见解，提供了实用的建议和技巧，以帮助开发者更有效地使用 LLM 进行编码。该项目在 GitHub 上获得了超过 127,000 个星标，显示出其在社区中的广泛关注和认可。",
+  "tags": [
+    "llm",
+    "coding-best-practices",
+    "andrej-karpathy",
+    "open-source",
+    "github"
+  ],
+  "relevance_score": 0.9,
+  "score_breakdown": {
+    "tech_depth": 0.8,
+    "practical_value": 0.9,
+    "timeliness": 0.7,
+    "community_heat": 1.0,
+    "domain_match": 0.9
+  },
+  "collected_at": "2026-05-13T10:29:29Z",
+  "analyzed_at": "2026-05-13T10:29:25Z",
+  "organized_at": "2026-05-13T10:29:29Z",
+  "status": "published",
+  "stars": 127762,
+  "language": null
+}
