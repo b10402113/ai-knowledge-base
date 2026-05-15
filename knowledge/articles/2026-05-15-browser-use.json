@@ -1,0 +1,29 @@
+{
+  "id": "kb-2026-05-15-006",
+  "title": "browser-use",
+  "source": "github-search",
+  "source_id": "browser-use/browser-use",
+  "url": "https://github.com/browser-use/browser-use",
+  "summary": "browser-use 项目旨在为 AI 代理提供网站访问能力，简化在线任务的自动化过程。该项目通过 Python 实现，允许开发者更轻松地与网页交互，从而提高 AI 代理的实用性和效率。其在 GitHub 上获得了超过 94026 个星标，显示出其在开发者社区中的广泛关注和认可。",
+  "tags": [
+    "ai-agents",
+    "web-automation",
+    "python",
+    "open-source",
+    "developer-tools"
+  ],
+  "relevance_score": 0.85,
+  "score_breakdown": {
+    "tech_depth": 0.7,
+    "practical_value": 0.9,
+    "timeliness": 0.8,
+    "community_heat": 0.9,
+    "domain_match": 0.95
+  },
+  "collected_at": "2026-05-15T10:24:06Z",
+  "analyzed_at": "2026-05-15T10:23:59Z",
+  "organized_at": "2026-05-15T10:24:06Z",
+  "status": "published",
+  "stars": 94026,
+  "language": "Python"
+}

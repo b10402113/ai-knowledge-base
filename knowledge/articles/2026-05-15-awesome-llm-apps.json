@@ -1,0 +1,29 @@
+{
+  "id": "kb-2026-05-15-001",
+  "title": "awesome-llm-apps",
+  "source": "github-search",
+  "source_id": "Shubhamsaboo/awesome-llm-apps",
+  "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+  "summary": "awesome-llm-apps 是一个集合了 100 多个可实际运行的 AI Agent 和 RAG 应用的项目，用户可以轻松克隆、定制和发布这些应用。该项目旨在为开发者提供丰富的资源，帮助他们快速构建和部署基于大型语言模型的应用。由于其开源性质和广泛的应用案例，吸引了大量开发者的关注和参与，成为社区中一个重要的资源库。",
+  "tags": [
+    "awesome-list",
+    "ai-agent",
+    "rag-apps",
+    "open-source",
+    "python"
+  ],
+  "relevance_score": 0.9,
+  "score_breakdown": {
+    "tech_depth": 0.8,
+    "practical_value": 0.9,
+    "timeliness": 0.85,
+    "community_heat": 0.95,
+    "domain_match": 1.0
+  },
+  "collected_at": "2026-05-15T10:24:06Z",
+  "analyzed_at": "2026-05-15T10:23:43Z",
+  "organized_at": "2026-05-15T10:24:06Z",
+  "status": "published",
+  "stars": 110344,
+  "language": "Python"
+}

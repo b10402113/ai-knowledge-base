@@ -1,0 +1,29 @@
+{
+  "id": "kb-2026-05-15-003",
+  "title": "gemini-cli",
+  "source": "github-search",
+  "source_id": "google-gemini/gemini-cli",
+  "url": "https://github.com/google-gemini/gemini-cli",
+  "summary": "Gemini-CLI 是一个开源的 AI 代理，旨在将 Gemini 的强大功能直接集成到用户的终端中。该项目使用 TypeScript 开发，提供了一种便捷的方式来利用 Gemini 的能力，提升开发者的工作效率。凭借超过 10 万个星标，Gemini-CLI 在开源社区中获得了广泛关注，展示了其在 AI 领域的潜力和实用性。",
+  "tags": [
+    "open-source",
+    "ai-agent",
+    "terminal-integration",
+    "gemini",
+    "typescript"
+  ],
+  "relevance_score": 0.9,
+  "score_breakdown": {
+    "tech_depth": 0.8,
+    "practical_value": 0.9,
+    "timeliness": 0.85,
+    "community_heat": 0.95,
+    "domain_match": 0.9
+  },
+  "collected_at": "2026-05-15T10:24:06Z",
+  "analyzed_at": "2026-05-15T10:23:51Z",
+  "organized_at": "2026-05-15T10:24:06Z",
+  "status": "published",
+  "stars": 104020,
+  "language": "TypeScript"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "kb-2026-05-15-007",
+  "title": "NextChat",
+  "source": "github-search",
+  "source_id": "ChatGPTNextWeb/NextChat",
+  "url": "https://github.com/ChatGPTNextWeb/NextChat",
+  "summary": "NextChat 是一个轻量快速的 AI 助手，支持多种平台，包括 Web、iOS、MacOS、Android、Linux 和 Windows。该项目使用 TypeScript 开发，旨在为用户提供便捷的人工智能助手体验。其开源特性和广泛的支持平台使其在社区中获得了较高的关注度，尤其是在多设备使用场景下的实用性和灵活性方面表现突出。",
+  "tags": [
+    "ai-assistant",
+    "cross-platform",
+    "typescript",
+    "open-source",
+    "lightweight"
+  ],
+  "relevance_score": 0.85,
+  "score_breakdown": {
+    "tech_depth": 0.7,
+    "practical_value": 0.9,
+    "timeliness": 0.8,
+    "community_heat": 0.9,
+    "domain_match": 0.95
+  },
+  "collected_at": "2026-05-15T10:24:06Z",
+  "analyzed_at": "2026-05-15T10:24:02Z",
+  "organized_at": "2026-05-15T10:24:06Z",
+  "status": "published",
+  "stars": 87998,
+  "language": "TypeScript"
+}

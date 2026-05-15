@@ -1,0 +1,29 @@
+{
+  "id": "kb-2026-05-15-002",
+  "title": "llama.cpp",
+  "source": "github-search",
+  "source_id": "ggml-org/llama.cpp",
+  "url": "https://github.com/ggml-org/llama.cpp",
+  "summary": "llama.cpp 是一个用于在 C/C++ 中进行大型语言模型（LLM）推理的项目，旨在提供高效的模型推理能力。该项目的实现方式使得开发者能够在资源受限的环境中运行 LLM，同时保持较高的性能。由于其开源特性，llama.cpp 受到了广泛的关注和使用，尤其是在需要高效推理的应用场景中。该项目在 GitHub 上获得了超过 11 万个星标，显示了其在开发者社区中的受欢迎程度。",
+  "tags": [
+    "llm",
+    "c-plus-plus",
+    "inference",
+    "open-source",
+    "high-performance"
+  ],
+  "relevance_score": 0.9,
+  "score_breakdown": {
+    "tech_depth": 0.8,
+    "practical_value": 0.9,
+    "timeliness": 0.85,
+    "community_heat": 0.95,
+    "domain_match": 1.0
+  },
+  "collected_at": "2026-05-15T10:24:06Z",
+  "analyzed_at": "2026-05-15T10:23:47Z",
+  "organized_at": "2026-05-15T10:24:06Z",
+  "status": "published",
+  "stars": 110227,
+  "language": "C++"
+}

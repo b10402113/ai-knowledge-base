@@ -1,0 +1,29 @@
+{
+  "id": "kb-2026-05-15-005",
+  "title": "agency-agents",
+  "source": "github-search",
+  "source_id": "msitarzewski/agency-agents",
+  "url": "https://github.com/msitarzewski/agency-agents",
+  "summary": "agency-agents 是一个完整的 AI 代理平台，提供多种专业化的代理服务，涵盖前端开发、社区管理等领域。每个代理都具备独特的个性、流程和已验证的交付成果，旨在为用户提供高效的解决方案。该项目在 GitHub 上获得了近十万颗星，显示出其在开发者社区中的广泛认可和影响力。",
+  "tags": [
+    "ai-agency",
+    "agent-based-systems",
+    "community-engagement",
+    "frontend-development",
+    "shell-scripting"
+  ],
+  "relevance_score": 0.85,
+  "score_breakdown": {
+    "tech_depth": 0.8,
+    "practical_value": 0.9,
+    "timeliness": 0.7,
+    "community_heat": 0.95,
+    "domain_match": 0.9
+  },
+  "collected_at": "2026-05-15T10:24:06Z",
+  "analyzed_at": "2026-05-15T10:23:57Z",
+  "organized_at": "2026-05-15T10:24:06Z",
+  "status": "published",
+  "stars": 97634,
+  "language": "Shell"
+}

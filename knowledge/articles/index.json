@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-13T10:29:29Z",
-  "total_count": 25,
+  "last_updated": "2026-05-15T10:24:06Z",
+  "total_count": 32,
   "entries": [
     {
       "id": "kb-2026-04-25-014",
@@ -326,6 +326,104 @@
       ],
       "relevance_score": 0.9,
       "organized_at": "2026-05-13T10:29:29Z"
+    },
+    {
+      "id": "kb-2026-05-15-001",
+      "title": "awesome-llm-apps",
+      "file": "2026-05-15-awesome-llm-apps.json",
+      "tags": [
+        "awesome-list",
+        "ai-agent",
+        "rag-apps",
+        "open-source",
+        "python"
+      ],
+      "relevance_score": 0.9,
+      "organized_at": "2026-05-15T10:24:06Z"
+    },
+    {
+      "id": "kb-2026-05-15-002",
+      "title": "llama.cpp",
+      "file": "2026-05-15-llama-cpp.json",
+      "tags": [
+        "llm",
+        "c-plus-plus",
+        "inference",
+        "open-source",
+        "high-performance"
+      ],
+      "relevance_score": 0.9,
+      "organized_at": "2026-05-15T10:24:06Z"
+    },
+    {
+      "id": "kb-2026-05-15-003",
+      "title": "gemini-cli",
+      "file": "2026-05-15-gemini-cli.json",
+      "tags": [
+        "open-source",
+        "ai-agent",
+        "terminal-integration",
+        "gemini",
+        "typescript"
+      ],
+      "relevance_score": 0.9,
+      "organized_at": "2026-05-15T10:24:06Z"
+    },
+    {
+      "id": "kb-2026-05-15-004",
+      "title": "supabase",
+      "file": "2026-05-15-supabase.json",
+      "tags": [
+        "postgres",
+        "database",
+        "web-development",
+        "open-source",
+        "ai-applications"
+      ],
+      "relevance_score": 0.85,
+      "organized_at": "2026-05-15T10:24:06Z"
+    },
+    {
+      "id": "kb-2026-05-15-005",
+      "title": "agency-agents",
+      "file": "2026-05-15-agency-agents.json",
+      "tags": [
+        "ai-agency",
+        "agent-based-systems",
+        "community-engagement",
+        "frontend-development",
+        "shell-scripting"
+      ],
+      "relevance_score": 0.85,
+      "organized_at": "2026-05-15T10:24:06Z"
+    },
+    {
+      "id": "kb-2026-05-15-006",
+      "title": "browser-use",
+      "file": "2026-05-15-browser-use.json",
+      "tags": [
+        "ai-agents",
+        "web-automation",
+        "python",
+        "open-source",
+        "developer-tools"
+      ],
+      "relevance_score": 0.85,
+      "organized_at": "2026-05-15T10:24:06Z"
+    },
+    {
+      "id": "kb-2026-05-15-007",
+      "title": "NextChat",
+      "file": "2026-05-15-nextchat.json",
+      "tags": [
+        "ai-assistant",
+        "cross-platform",
+        "typescript",
+        "open-source",
+        "lightweight"
+      ],
+      "relevance_score": 0.85,
+      "organized_at": "2026-05-15T10:24:06Z"
     }
   ]
 }

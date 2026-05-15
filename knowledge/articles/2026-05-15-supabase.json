@@ -1,0 +1,29 @@
+{
+  "id": "kb-2026-05-15-004",
+  "title": "supabase",
+  "source": "github-search",
+  "source_id": "supabase/supabase",
+  "url": "https://github.com/supabase/supabase",
+  "summary": "Supabase 是一个基于 Postgres 的开发平台，为开发者提供专用的 Postgres 数据库，以支持 Web、移动和 AI 应用的构建。它通过简化数据库管理和提供实时功能，帮助开发者快速构建和迭代应用。Supabase 的开源特性和活跃的社区使其在开发者中获得了广泛的关注和使用，尤其是在需要快速开发和原型设计的场景中。",
+  "tags": [
+    "postgres",
+    "database",
+    "web-development",
+    "open-source",
+    "ai-applications"
+  ],
+  "relevance_score": 0.85,
+  "score_breakdown": {
+    "tech_depth": 0.7,
+    "practical_value": 0.9,
+    "timeliness": 0.8,
+    "community_heat": 0.9,
+    "domain_match": 0.75
+  },
+  "collected_at": "2026-05-15T10:24:06Z",
+  "analyzed_at": "2026-05-15T10:23:53Z",
+  "organized_at": "2026-05-15T10:24:06Z",
+  "status": "published",
+  "stars": 102357,
+  "language": "TypeScript"
+}
