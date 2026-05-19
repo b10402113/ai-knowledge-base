@@ -1,0 +1,82 @@
+{
+  "date": "2026-05-19",
+  "filtered_count": 19,
+  "items": [
+    {
+      "id": "openclaw/openclaw",
+      "reason": "dedup: URL exists in article store"
+    },
+    {
+      "id": "obra/superpowers",
+      "reason": "dedup: URL exists in article store"
+    },
+    {
+      "id": "n8n-io/n8n",
+      "reason": "dedup: URL exists in article store"
+    },
+    {
+      "id": "Significant-Gravitas/AutoGPT",
+      "reason": "dedup: URL exists in article store"
+    },
+    {
+      "id": "ollama/ollama",
+      "reason": "dedup: URL exists in article store"
+    },
+    {
+      "id": "AUTOMATIC1111/stable-diffusion-webui",
+      "reason": "dedup: URL exists in article store"
+    },
+    {
+      "id": "f/prompts.chat",
+      "reason": "dedup: URL exists in article store"
+    },
+    {
+      "id": "anomalyco/opencode",
+      "reason": "dedup: URL exists in article store"
+    },
+    {
+      "id": "huggingface/transformers",
+      "reason": "dedup: URL exists in article store"
+    },
+    {
+      "id": "NousResearch/hermes-agent",
+      "reason": "dedup: URL exists in article store"
+    },
+    {
+      "id": "Snailclimb/JavaGuide",
+      "reason": "dedup: URL exists in article store"
+    },
+    {
+      "id": "langflow-ai/langflow",
+      "reason": "dedup: URL exists in article store"
+    },
+    {
+      "id": "langgenius/dify",
+      "reason": "dedup: URL exists in article store"
+    },
+    {
+      "id": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "reason": "dedup: URL exists in article store"
+    },
+    {
+      "id": "open-webui/open-webui",
+      "reason": "dedup: URL exists in article store"
+    },
+    {
+      "id": "anthropics/skills",
+      "reason": "dedup: URL exists in article store"
+    },
+    {
+      "id": "langchain-ai/langchain",
+      "reason": "dedup: URL exists in article store"
+    },
+    {
+      "id": "multica-ai/andrej-karpathy-skills",
+      "reason": "dedup: URL exists in article store"
+    },
+    {
+      "id": "anthropics/claude-code",
+      "reason": "dedup: URL exists in article store"
+    }
+  ]
+}

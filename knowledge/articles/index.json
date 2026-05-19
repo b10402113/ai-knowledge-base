@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-15T10:24:06Z",
-  "total_count": 32,
+  "last_updated": "2026-05-19T11:18:33Z",
+  "total_count": 33,
   "entries": [
     {
       "id": "kb-2026-04-25-014",
@@ -424,6 +424,20 @@
       ],
       "relevance_score": 0.85,
       "organized_at": "2026-05-15T10:24:06Z"
+    },
+    {
+      "id": "kb-2026-05-19-001",
+      "title": "ECC",
+      "file": "2026-05-19-ecc.json",
+      "tags": [
+        "performance-optimization",
+        "agent",
+        "open-source",
+        "javascript",
+        "ai"
+      ],
+      "relevance_score": 0.85,
+      "organized_at": "2026-05-19T11:18:33Z"
     }
   ]
 }

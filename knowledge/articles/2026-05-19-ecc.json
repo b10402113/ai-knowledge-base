@@ -1,0 +1,29 @@
+{
+  "id": "kb-2026-05-19-001",
+  "title": "ECC",
+  "source": "github-search",
+  "source_id": "affaan-m/ECC",
+  "url": "https://github.com/affaan-m/ECC",
+  "summary": "ECC 是一个性能优化系统，旨在为 Claude Code、Codex、Opencode、Cursor 等提供技能、直觉、记忆、安全性和以研究为先的开发。该项目通过优化代理的性能，提升其在 AI 和 LLM 领域的应用效果，具有较高的技术深度和实际应用价值。其开源特性和活跃的社区支持使其在开发者中获得了较高的关注度。",
+  "tags": [
+    "performance-optimization",
+    "agent",
+    "open-source",
+    "javascript",
+    "ai"
+  ],
+  "relevance_score": 0.85,
+  "score_breakdown": {
+    "tech_depth": 0.8,
+    "practical_value": 0.9,
+    "timeliness": 0.7,
+    "community_heat": 0.85,
+    "domain_match": 0.9
+  },
+  "collected_at": "2026-05-19T11:18:33Z",
+  "analyzed_at": "2026-05-19T11:17:32Z",
+  "organized_at": "2026-05-19T11:18:33Z",
+  "status": "published",
+  "stars": 186919,
+  "language": "JavaScript"
+}
